@@ -1,4 +1,4 @@
-# com-etzhayyim-kawase-yui — CLAUDE.md
+# com-etzhayyim-kawase-yui — AGENTS.md
 
 ## Identity
 
@@ -234,7 +234,7 @@ SBT-signed flow.
 | 7 | `4a1187b90` | GitHub Actions workflow (`kawase-yui-r0-audit`) + 10 cross-layer composition tests |
 | 8 | `2ca8ef437` | Cross-actor reverse-references (wakai + chigiri + toritate manifests) + 4 symmetry tests |
 | 9 | `1ee9c8fb9` | Lexicon-dir README + ADR-2605282200 index entry + 2 documentation discoverability tests |
-| 10 | (this) | Operator-facing CLAUDE.md + R1 activation runbook + Iter-Summary table |
+| 10 | (this) | Operator-facing AGENTS.md + R1 activation runbook + Iter-Summary table |
 
 ## Build & Deploy
 
@@ -293,4 +293,4 @@ R1 deploy (post-Council ratify) lands as a separate runbook ADR.
 - `/90-docs/adr/2605262700-chigiri-legal-procedure-tier-b-actor-r0.md` — G14 + G11 cross-actor
 - `/90-docs/adr/2605262900-toritate-accounting-audit-tier-b-actor-r0.md` — Accounting cross-actor
 - `/CHARTER-RIDER.md` — §2(b) + §2(c) + §2(e) sources for G7
-- `/CLAUDE.md` — Religious-corp Status table (kawase-yui row to be added in a future commit)
+- `/AGENTS.md` — Religious-corp Status table (kawase-yui row to be added in a future commit)
