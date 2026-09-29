@@ -345,12 +345,12 @@ def test_adr_index_lists_kawase_yui() -> None:
 
 
 def test_actor_claude_md_present_with_r1_runbook() -> None:
-    """Sibling actors (wakai / chigiri / toritate) all carry a CLAUDE.md
+    """Sibling actors (wakai / chigiri / toritate) all carry a AGENTS.md
     with an R1 Activation Triggers section that operators read before
     bringing the actor to R1. kawase parity: same convention.
     """
-    claude_md = _ACTOR_ROOT / "CLAUDE.md"
-    assert claude_md.is_file(), f"Actor CLAUDE.md missing: {claude_md}"
+    claude_md = _ACTOR_ROOT / "AGENTS.md"
+    assert claude_md.is_file(), f"Actor AGENTS.md missing: {claude_md}"
     text = claude_md.read_text(encoding="utf-8")
     # Must include the constitutional discipline section + R1 runbook
     # + cross-actor coordination + build & deploy smoke tests.
@@ -365,7 +365,7 @@ def test_actor_claude_md_present_with_r1_runbook() -> None:
     )
     for section in required_sections:
         assert section in text, (
-            f"Actor CLAUDE.md must contain '{section}' section "
+            f"Actor AGENTS.md must contain '{section}' section "
             f"(sibling-actor convention)"
         )
     # Must reference the master ADR + the mKOTO compute-cost layer
